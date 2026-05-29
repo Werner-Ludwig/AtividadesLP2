@@ -1,11 +1,6 @@
 package AtividadesLP2.ATIVIDADEPRATICA2;
 
 public class Mercado {
-
-    private static String nome;
-    private static float preco;
-    private static int estoque;
-    private static int qntProdutos = 0;
     
 
     public static void main(String[] args) {

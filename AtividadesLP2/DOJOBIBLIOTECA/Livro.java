@@ -7,12 +7,13 @@ public class Livro {
     private int anoPublicacao;
     private int qntDisponivel;
 
-    public void Livro(String titulo, String autor, int isbn, int anoPublicacao, int qntDisponivel) {
+    public Livro(String titulo, String autor, int isbn, int anoPublicacao, int qntDisponivel) {
         this.titulo = titulo;
         this.autor = autor;
         this.isbn = isbn;
         this.anoPublicacao = anoPublicacao;
         this.qntDisponivel = qntDisponivel;
+        Biblioteca.cadastrarLivro();
     }
 
     public void LivroAutorNome (String titulo, String autor) {
@@ -23,7 +24,9 @@ public class Livro {
     public void emprestarLivro() {
         if(qntDisponivel > 0) {
             qntDisponivel--;
+            System.out.println("-----------------------------");
             System.out.println("Livro emprestado com sucesso!");
+            System.out.println("-----------------------------");
         } else {
             System.out.println("Livro indisponível para empréstimo.");
         }

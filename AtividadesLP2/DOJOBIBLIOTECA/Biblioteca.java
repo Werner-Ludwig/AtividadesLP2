@@ -9,5 +9,8 @@ public class Biblioteca {
         System.out.println("Total de livros cadastrados: " + livrosCadastrados);
     }
 
+    public static void cadastrarLivro() {
+        livrosCadastrados++;
+    }
 
 }
