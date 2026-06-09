@@ -1,9 +1,10 @@
 package AtividadesLP2.ATIVIDADEPRATICA2;
 
-public class Mercado {
+public class Mercado{
     
 
     public static void main(String[] args) {
+
         Produtos produto1 = new Produtos("Arroz", 10.50f, 20);
         produto1.setNome("Arroz");
         produto1.setPreco(10.50f);
