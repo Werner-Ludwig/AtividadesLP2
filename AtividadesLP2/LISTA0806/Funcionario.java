@@ -26,6 +26,11 @@ public class Funcionario {
         return salarioBase;
     }
 
+    //SETTERS encapsulados
+    public void setSalarioBase(float salarioBase) {
+        this.salarioBase = salarioBase;
+    }
+
     public void imprimeDados() {
         
         System.out.println("Nome: " + nome);
