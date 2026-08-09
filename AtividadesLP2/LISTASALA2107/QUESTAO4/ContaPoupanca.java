@@ -1,6 +1,6 @@
 package AtividadesLP2.LISTASALA2107.QUESTAO4;
 
-public class ContaPoupanca extends Conta implements Operacoes {
+public class ContaPoupanca extends Conta {
 
     @Override
     public void depositar() {

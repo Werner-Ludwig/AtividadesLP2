@@ -15,4 +15,7 @@ public class Medico extends Colaborador {
             System.out.println("Medico realizando da cirurgia");        
     }
     
+    public int getCrm() {
+        return crm;
+    }
 }

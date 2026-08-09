@@ -7,9 +7,9 @@ public class App {
         Funcionario func2 = new Horista();
         Funcionario func3 = new Mensalista();
 
-        func1.calcularPagamento();
-        func2.calcularPagamento();
-        func3.calcularPagamento();
+        func1.calcularPagamento(10,20);
+        func2.calcularPagamento(20,30);
+        func3.calcularPagamento(30,40);
     }
     
 }

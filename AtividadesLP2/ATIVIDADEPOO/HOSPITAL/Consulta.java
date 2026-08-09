@@ -3,8 +3,8 @@ package AtividadesLP2.ATIVIDADEPOO.HOSPITAL;
 public class Consulta {
 
     private String data;
-    Medico medico;
-    Paciente paciente;
+    private Medico medico;
+    private Paciente paciente;
 
     public Consulta(Medico medico, Paciente paciente, String data) {
         this.medico = medico;
@@ -12,13 +12,21 @@ public class Consulta {
         this.data = data;
     }
 
-    //public Consulta(String data) {
-    //    this.data=data;  
-    //}
+    public Consulta(String data) {
+        this.data=data;  
+    }
 
 
-    //public Consulta(){    
-    //    this("09/06/2026"); 
-    //}
+    public String getData() {
+        return data;
+    }
+
+    public Medico getMedico() {
+        return medico;
+    }
+
+    public Paciente getPaciente() {
+        return paciente;
+    }
     
 }

@@ -13,5 +13,8 @@ public class Enfermeiro extends Pessoa {
         System.out.println("Enfermeiro exibindo perfil:");
     }
 
+    public int getCoren() {
+        return coren;
+    }
     
 }

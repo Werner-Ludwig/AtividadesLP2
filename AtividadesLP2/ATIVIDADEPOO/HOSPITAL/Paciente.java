@@ -13,6 +13,14 @@ public class Paciente extends Pessoa {
         System.out.println("Paciente exibindo perfil:");
     }
 
+    public String getNome() {
+        return super.nome;
+    }
+    
+    public Prontuario getProntuario() {
+        return prontuario;
+    }
+    
     //Agregacao, prontuario pode existir sem paciente, mas paciente tem um prontuario
     //public Prontuario getProntuario() {
     //    return prontuario;

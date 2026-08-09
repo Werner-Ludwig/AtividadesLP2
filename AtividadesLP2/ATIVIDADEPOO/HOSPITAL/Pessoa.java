@@ -11,5 +11,9 @@ public class Pessoa {
         System.out.println("Pessoa exibindo perfil:");
     }
 
+    public int getId() {
+        return id;
+    }
+
     
 }

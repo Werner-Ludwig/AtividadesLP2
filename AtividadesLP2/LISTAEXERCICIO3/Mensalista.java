@@ -7,4 +7,7 @@ public class Mensalista extends Funcionario {
         System.out.println("Calculando pagamento mensalista");
     }
     
+    public float getSalarioFixo() {
+        return salarioFixo;
+    }
 }

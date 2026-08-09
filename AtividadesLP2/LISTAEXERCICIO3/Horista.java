@@ -5,6 +5,10 @@ public class Horista extends Funcionario{
 
     public void calcularPagamento(){
         System.out.println("Calculando pagamento horista");
-    }    
+    }   
+    
+    public float getHorasTrabalhadas() {
+        return horasTrabalhadas;
+    }
     
 }

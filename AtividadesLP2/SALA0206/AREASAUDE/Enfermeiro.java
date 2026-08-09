@@ -19,4 +19,8 @@ public class Enfermeiro extends Colaborador {
     public void participarCirugia() {        
             System.out.println("Enfermeiro realizando da cirurgia");        
     }
+
+    public int getCoren() {
+        return coren;
+    }
 }

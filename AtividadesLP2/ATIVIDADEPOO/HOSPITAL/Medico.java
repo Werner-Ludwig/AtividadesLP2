@@ -13,5 +13,13 @@ public class Medico extends Pessoa{
         System.out.println("Medico exibindo perfil:");
     }
 
+    public String getNome() {
+        return super.nome;
+    }   
+
+    public int getCrm() {
+        return crm;
+    }
+
     
 }

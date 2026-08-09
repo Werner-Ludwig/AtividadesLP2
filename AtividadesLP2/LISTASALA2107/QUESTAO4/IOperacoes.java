@@ -1,6 +1,6 @@
 package AtividadesLP2.LISTASALA2107.QUESTAO4;
 
-public interface Operacoes {
+public interface IOperacoes {
 
     public void depositar();
 
