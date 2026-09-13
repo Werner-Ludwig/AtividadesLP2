@@ -3,13 +3,13 @@ package AtividadesLP2.DOJO2807;
 public interface IPersistenciaDojo {
 
 
-    public void Incluir();
+    void Incluir();
 
-    public void Alterar();
+    void Alterar();
     
-    public void Excluir ();
+    void Excluir ();
 
-    public void Consultar ();
+    void Consultar ();
 
-    public void Listar ();
+    void Listar ();
 }
